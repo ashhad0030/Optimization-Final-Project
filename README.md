@@ -1,4 +1,4 @@
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F11048692-Optimize-logo&psig=AOvVaw0Z5SsBraAkuJMmpsaRQAVx&ust=1670277276742000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKDki_D54PsCFQAAAAAdAAAAABAE" alt="Logo of the project" align="right">
+<img src="https://cdn.dribbble.com/users/4538838/screenshots/11048692/media/36d9bd4b48cfa648c809e2b68999fe33.jpg" alt="Logo of the project" align="right">
 
 # Optimization-Final-Project; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
 > Final project for MIT 6.7200/6.7201 (Optimization Methods)
