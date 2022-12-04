@@ -1,25 +1,9 @@
-<img src="https://venturebeat.com/wp-content/uploads/2018/09/natural-language-processing-e1572968977211.jpg" alt="Logo of the project" align="right">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F11048692-Optimize-logo&psig=AOvVaw0Z5SsBraAkuJMmpsaRQAVx&ust=1670277276742000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKDki_D54PsCFQAAAAAdAAAAABAE" alt="Logo of the project" align="right">
 
-# NLP-Final-Project; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
-> Final project for 6.8610 (Quantitative Methods for Natural Language Processing)
+# Optimization-Final-Project; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
+> Final project for MIT 6.7200/6.7201 (Optimization Methods)
 
-There have been numerous advancements in the field of natural language processing (NLP) in
-recent years that attempt to solve the task of summarization. However, these have generally
-focused on summarization for a singular document. While important in its own right, single
-document summarization is insufficient when there are thousands of related documents that need
-to be aggregated and summarized. Given the ever-growing volume of information in the modern
-age, this is an increasingly relevant challenge. Consider the case when we want to summarize
-opinions from several different editorials regarding a current event. Or the case when there are
-thousands of different reviews for a product that we want to summarize. This is the problem of
-multi-document summarization.
-
-This project will work with a dataset of movie reviews. Websites like Rotten Tomatoes have
-users that post thousands of reviews on a daily basis. Users looking for movie recommendations
-will usually not want to read through all of these. To address this, Rotten Tomatoes has paid
-editors that read through, and then write a short summary of these reviews. In our project, we
-intend to build and test models that can automate the process of summarizing these reviews. We
-also hope that in addition to helping solve the task at hand, insights from our model(s) can be
-applied to other similar problems in the realm of multi-document summarization.
+Our final project is to optimize the lineups for Liverpool over the 21/22 season. This is still a work in progress, so we will keep updating this
 
 ## Installing / Getting started
 
@@ -28,25 +12,19 @@ applied to other similar problems in the realm of multi-document summarization.
 Go to a folder and run the following to clone this repository and move into the right file directory
 
 ```shell
-git clone https://github.com/hesham-nawaz/NLP-Final-Project.git
-cd NLP-Final-Project
+git clone https://github.com/ashhad0030/Optimization-Final-Project.git
+cd Optimization-Final-Project
 ```
-
-After cloning the repository, manually add the appropriate datasets to the folder NLP-Final-Project
 
 ### Getting the Dataset 
 
-Download Kaggle Datasets from [HERE](https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset). 
-There are two files to place into the `NLP-Final-Project` folder: `rotten_tomatoes_critic_reviews.csv` and `rotten_tomatoes_movies.csv`
+The datasets should already be part of the GitHub repository. If not, you can download Kaggle Datasets from [HERE](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset). 
+The data should be stored in a folder named `all_data`
 
 ## Developing
 
 ### Built With
-pandas, python, numpy, rouge-score, matplotlib, sumy, nltk, re, heapq
-
-### Prerequisites
-
-The dataset must be donwloaded manually and inserted into the file directory as the datasets are large.
+python, pandas, requests, BeautifulSoup, Julia, JuMP, Gurobi
 
 ## Licensing
 
