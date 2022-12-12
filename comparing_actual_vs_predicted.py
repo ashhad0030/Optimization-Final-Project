@@ -1,6 +1,6 @@
 import pandas as pd
 
-cur_pred = "mult_penalty_beatavg.xlsx"
+cur_pred = "beat_avgteampenalty.xlsx"
 predicted = pd.ExcelFile(cur_pred)
 actual = pd.ExcelFile("actual_lineups.xlsx")
 match_diffs = pd.ExcelWriter("match_diffs.xlsx", engine='openpyxl')
