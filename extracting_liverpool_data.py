@@ -10,7 +10,7 @@ player_info = ["short_name", "player_positions", "overall", "age"] + player_pos
 liv_val = liv_val_inter[player_info]
 for pos in player_pos:
     liv_val[pos] = liv_val[pos].apply(lambda x: eval(x))
-liv_val.to_csv('Liverpool_FIFA_22.csv')
+liv_val.to_csv('all_data/Liverpool_FIFA_22.csv')
 
 url = 'https://www.fifaindex.com/teams/fifa22/?league=13'
 page = requests.get(url)
@@ -32,4 +32,4 @@ for row in rows:
 
 data = {'Name': name, 'Att': attack, 'Mid': mid, 'Def': defence, 'OVR': ovr}
 team_df = pd.DataFrame(data)
-team_df.to_csv('Team_Ratings.csv')
+team_df.to_csv('all_data/Team_Ratings.csv')

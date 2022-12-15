@@ -1,9 +1,9 @@
 import pandas as pd
 
-cur_pred = "beat_avgteampenalty.xlsx"
+cur_pred = "lineups/beat_avgteampenalty.xlsx"
 predicted = pd.ExcelFile(cur_pred)
-actual = pd.ExcelFile("actual_lineups.xlsx")
-match_diffs = pd.ExcelWriter("match_diffs.xlsx", engine='openpyxl')
+actual = pd.ExcelFile("lineups/actual_lineups.xlsx")
+match_diffs = pd.ExcelWriter("differences between lineups/match_diffs.xlsx", engine='openpyxl')
 count_diff = 0
 
 for sheet in predicted.sheet_names:
