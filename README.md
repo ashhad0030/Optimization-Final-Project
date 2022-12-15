@@ -3,9 +3,9 @@
 # Optimization-Final-Project; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
 > Final project for MIT 6.7200/6.7201 (Optimization Methods)
 
-Our final project is to optimize the lineups for Liverpool over the 21/22 season. The final model can be found in model.ipynb. Each of the Excel files represent the different lineups we got as we went about making the model include more realistic scenarios.
+Our final project is to optimize the lineups for Liverpool over the 21/22 season. The final model can be found in model.ipynb. Each of the Excel files in the "lineups" folder represent the different lineups we got as we went about making the model include more realistic scenarios.
 
-In order to evaluate the model, we simply simulated it on FIFA 22, and saw how the different games worked out. A more comprehensive report is being added to GitHub.
+In order to evaluate the model, we simply simulated it on FIFA 22, and saw how the different games worked out.
 
 ## Installing / Getting started
 
